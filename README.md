@@ -31,7 +31,7 @@ dotnet publish --os linux --arch x64 -c Release -p:PublishProfile=DefaultContain
 4. Run your app using the newly created container:
 
 ```bash
-docker run -it --rm -p 5010:80 BuildContainersFeature:1.0.0
+docker run -it --rm -p 5010:80 buildcontainersfeature:1.0.0
 ```
 
 ## Working with Secrets and Certificates in .NET
